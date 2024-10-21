@@ -1,0 +1,46 @@
+.adminLogin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(168, 168, 168, 0.911);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.adminLogin form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    height: 40px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+h1{
+    font-size: 24px;
+    color: #fff;
+}
+form .button{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: greenyellow;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+}
